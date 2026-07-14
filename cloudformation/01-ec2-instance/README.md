@@ -6,9 +6,11 @@
 ![Language](https://img.shields.io/badge/Language-YAML-red)
 ![Automation](https://img.shields.io/badge/Automation-Infrastructure%20as%20Code-green)
 
+
 <p align="center">
-<img width="1000" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/0ed4daa0-60c0-40ec-9b35-ed61677f9ef4" /> 
+<img width="850" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/0ed4daa0-60c0-40ec-9b35-ed61677f9ef4" /> 
 </p>
+
 
 This project demonstrates Infrastructure as Code (IaC) by provisioning an Amazon EC2 instance using an AWS CloudFormation template written in YAML. It deploys an EC2 instance, Security Group, IAM Role, and IAM Instance Profile automatically through a CloudFormation stack, eliminating manual infrastructure provisioning.
 
