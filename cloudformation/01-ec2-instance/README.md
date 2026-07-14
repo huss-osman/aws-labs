@@ -49,7 +49,7 @@ The infrastructure is fully defined inside a YAML template.
 
 Download the template here:
 
-➡️ **[ec2-instance.yaml](./ec2-instance.yaml)**
+➡️ **[ec2-instance.yaml](https://github.com/huss-osman/aws-labs/blob/main/cloudformation/01-ec2-instance/ec2instance.yaml)**
 
 <p align="center">
 <img width="1000" alt="YAML Template" src="https://github.com/user-attachments/assets/ff0d7951-504b-497b-a2c5-7f267c881183" /> 
