@@ -178,9 +178,14 @@ The EC2 instance entered the **Shutting-down** state before being permanently **
 
 # Why I Built It
 
-I wanted to understand how Infrastructure as Code replaces repetitive manual cloud provisioning with repeatable, version-controlled deployments.
+I wanted a hands-on understanding of:
 
-Building this project helped demonstrate how AWS resources can be consistently deployed, managed, and removed through CloudFormation.
+- How Infrastructure as Code (IaC) simplifies cloud deployments
+- Building reusable cloud infrastructure using AWS CloudFormation
+- Defining AWS resources through YAML templates
+- Automating infrastructure provisioning instead of using ClickOps
+- Understanding the CloudFormation stack lifecycle from creation to deletion
+- Building repeatable, version-controlled cloud deployments
 
 ---
 
