@@ -7,11 +7,11 @@
 ![Automation](https://img.shields.io/badge/Automation-Infrastructure%20as%20Code-green)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This repository contains hands-on AWS demonstrations covering core cloud services and Infrastructure as Code (IaC).
+This repository documents my hands-on AWS demonstrations covering Infrastructure as Code (IaC) and cloud infrastructure workflows.
 
-Each demo focuses on a single AWS concept and is designed to be practical, repeatable, and easy to understand through real deployments, diagrams, screenshots, and walkthroughs.
+Each demo focuses on a core AWS service or concept. It demonstrates how cloud infrastructure can be provisioned, managed, automated, and removed through practical deployments using Infrastructure as Code, helping build real-world cloud engineering skills.
 
-The goal is to learn AWS through practical cloud deployments, automation, and Infrastructure as Code (IaC).
+This repository documents AWS demonstrations covering Infrastructure as Code (IaC), infrastructure workflows, automation, and deployments.
 
 ---
 
