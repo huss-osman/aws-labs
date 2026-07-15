@@ -1,6 +1,6 @@
 <img width="1000" alt="AWS Banner" src="https://github.com/user-attachments/assets/309ad80e-751f-4e8f-906b-41a7648fd204" /> 
 
-# AWS Demos
+# AWS Labs
 
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![IaC](https://img.shields.io/badge/IaC-CloudFormation-blue)
