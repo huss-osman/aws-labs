@@ -11,7 +11,7 @@
 
 Application Load Balancer (ALB) is AWS's Layer 7 load balancing service that distributes HTTP and HTTPS traffic across multiple targets.
 
-Traffic is routed using listeners, target groups, health checks, and routing rules. This enables highly available, scalable, and fault-tolerant applications while efficiently distributing client requests.
+Traffic is routed using listeners, target groups, health checks, and routing rules. This enables highly available, scalable, and fault-tolerant applications while efficiently distributing client requests across multiple resources and services within AWS at scale in production reliably.
 
 The focus of this section is understanding how load balancing, traffic distribution, high availability, and scalability work practically.
 
