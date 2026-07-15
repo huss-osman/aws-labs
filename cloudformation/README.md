@@ -30,9 +30,23 @@ By working through these demonstrations, I aim to:
 
 ## Demonstrations
 
-| Demonstration | Description | README |
-|--------------|-------------|--------|
-| **EC2 Instance Deployment** | Provisioning an Amazon EC2 instance and Security Group using a CloudFormation YAML template. Demonstrates Infrastructure as Code, automated stack creation, and clean resource deletion. | [View](./01-ec2-instance/) |
+### **[☁️ CloudFormation EC2 Deployment](./cloudformation/01-ec2-instance/)**
+
+Provisioned an Amazon EC2 instance, Security Group, IAM Role, and IAM Instance Profile using an AWS CloudFormation template written in YAML.
+Demonstrated Infrastructure as Code through automated stack creation, resource provisioning, and complete infrastructure lifecycle management.
+Built through hands-on cloud automation, Infrastructure as Code workflows, YAML development, and AWS deployment practices.
+
+<br>
+
+<p align="center">
+  <img width="850" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/0ed4daa0-60c0-40ec-9b35-ed61677f9ef4" />
+</p>
+
+<br>
+
+<p align="center">
+  <a href="./01-ec2-instance"><strong>➡️ View Project</strong></a>
+</p>
 
 ---
 
