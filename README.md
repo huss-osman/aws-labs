@@ -28,7 +28,7 @@ By working through these demos, I aim to:
 
 ---
 
-## 🚀 Projects
+## Projects
 
 ### **[☁️ CloudFormation EC2 Deployment](./cloudformation/01-ec2-instance/)**
 
