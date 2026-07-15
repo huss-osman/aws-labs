@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" style="margin-left: 40px;" alt="S3 Banner" src="YOUR_S3_BANNER_URL" />
+  <img width="500" style="margin-left: 40px;" alt="S3 Banner" src="https://github.com/user-attachments/assets/a18c8ba3-65ce-43b8-91e1-63c799c29444" />
 </p>
 
 # Amazon S3
