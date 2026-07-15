@@ -30,7 +30,7 @@ By working through these demos, I aim to:
 
 ## Projects
 
-### **[☁️ CloudFormation EC2 Deployment](./cloudformation/01-ec2-instance/)**
+### **[CloudFormation EC2 Deployment](./cloudformation/01-ec2-instance/)**
 
 Provisioned an Amazon EC2 instance, Security Group, IAM Role, and IAM Instance Profile using an AWS CloudFormation template written in YAML.
 Demonstrated Infrastructure as Code through automated stack creation, resource provisioning, and complete infrastructure lifecycle management.
