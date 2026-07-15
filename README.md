@@ -11,7 +11,7 @@ This repository contains hands-on AWS demonstrations covering core cloud service
 
 Each demo focuses on a single AWS concept and is designed to be practical, repeatable, and easy to understand through real deployments, diagrams, screenshots, and walkthroughs.
 
-The goal is to build cloud knowledge by provisioning and managing AWS infrastructure through code rather than manual configuration.
+The goal is to learn AWS through practical cloud deployments, automation, and Infrastructure as Code (IaC).
 
 ---
 
