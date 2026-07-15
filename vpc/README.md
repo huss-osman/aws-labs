@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" style="margin-left: 40px;" alt="VPC Banner" src="YOUR_VPC_BANNER_URL" />
+  <img width="500" style="margin-left: 40px;" alt="VPC Banner" src="https://github.com/user-attachments/assets/33a63347-3a55-4de7-9620-658224980662" /> 
 </p>
 
 # VPC
