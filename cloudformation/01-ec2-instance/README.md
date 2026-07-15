@@ -8,7 +8,7 @@
 
 
 <p align="center">
-<img width="850" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/0ed4daa0-60c0-40ec-9b35-ed61677f9ef4" /> 
+<img width="1000" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/0ed4daa0-60c0-40ec-9b35-ed61677f9ef4" /> 
 </p>
 
 
