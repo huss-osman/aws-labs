@@ -10,7 +10,7 @@
 ![Projects](https://img.shields.io/badge/Projects-5-darkgreen)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
-This repository documents my hands-on AWS labs covering cloud infrastructure, networking, security, scalability, and workflows.
+This repository documents my AWS labs covering cloud infrastructure, networking, security, scalability, and workflows.
 
 Each assignment focuses on building practical AWS solutions through real-world cloud architectures, deployment workflows, troubleshooting, production-style environments, and industry-standard cloud engineering practices.
 
