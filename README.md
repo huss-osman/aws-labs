@@ -68,7 +68,7 @@ Built through hands-on cloud networking, infrastructure design, routing configur
 <br>
 
 <p align="center">
-  <a href="./01-vpc-and-networking.md"><strong>➡️ View Project</strong></a>
+  <a href="./vpc/02-vpc-networking/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
@@ -88,7 +88,7 @@ Built through hands-on cloud networking, high-availability architecture, infrast
 <br>
 
 <p align="center">
-  <a href="./02-application-load-balancer.md"><strong>➡️ View Project</strong></a>
+  <a href="./load-balancer/03-application-load-balancer/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
@@ -108,7 +108,7 @@ Built through hands-on cloud hosting, CDN configuration, DNS management, and mod
 <br>
 
 <p align="center">
-  <a href="./03-s3-cloudfront-route53.md"><strong>➡️ View Project</strong></a>
+  <a href="./s3/04-s3-cloudfront-route53/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
@@ -128,7 +128,7 @@ Built through hands-on serverless development, cloud automation, Infrastructure 
 <br>
 
 <p align="center">
-  <a href="./04-serverless-api-lambda-api-gateway.md"><strong>➡️ View Project</strong></a>
+  <a href="./serverless/05-serverless-api/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
