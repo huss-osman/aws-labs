@@ -14,7 +14,7 @@ This repository documents my AWS labs covering cloud infrastructure, networking,
 
 Each assignment focuses on building practical AWS solutions through real-world cloud architectures, deployment workflows, troubleshooting, production-style environments, and industry-standard cloud engineering practices.
 
-The focus throughout this repository is understanding how AWS services integrate to build secure cloud infrastructure through projects.
+The focus of this repository is how AWS services integrate to build secure cloud infrastructure through projects.
 
 ---
 
