@@ -5,6 +5,7 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![IaC](https://img.shields.io/badge/IaC-CloudFormation-blue)
 ![Automation](https://img.shields.io/badge/Automation-Infrastructure%20as%20Code-green)
+![Projects](https://img.shields.io/badge/Projects-5-darkgreen)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This repository documents my hands-on AWS demonstrations covering Infrastructure as Code (IaC) and cloud infrastructure workflows.
@@ -46,6 +47,86 @@ Built through hands-on cloud automation, Infrastructure as Code workflows, YAML 
 
 <p align="center">
   <a href="./cloudformation/01-ec2-instance/"><strong>➡️ View Project</strong></a>
+</p>
+
+---
+
+### **[VPC & Networking](./01-vpc-and-networking.md)**
+
+Designed and deployed a custom AWS VPC containing public and private subnets, Internet and NAT Gateways, route tables, and Security Groups.
+Implemented secure network segmentation, internet connectivity, EC2 deployments, and controlled traffic flow across isolated cloud environments.
+Built through hands-on cloud networking, infrastructure design, routing configuration, and AWS deployment practices.
+
+<br>
+
+<p align="center">
+  <img width="850" alt="VPC Architecture" src="images/vpc-networking-diagram.png" />
+</p>
+
+<br>
+
+<p align="center">
+  <a href="./01-vpc-and-networking.md"><strong>➡️ View Project</strong></a>
+</p>
+
+---
+
+### **[Application Load Balancer](./02-application-load-balancer.md)**
+
+Provisioned an Application Load Balancer with multiple Amazon EC2 instances distributed across Availability Zones using AWS networking services.
+Implemented load balancing, target groups, health checks, Security Groups, and scalable traffic distribution across web servers.
+Built through hands-on cloud networking, high-availability architecture, infrastructure deployment, and AWS load balancing practices.
+
+<br>
+
+<p align="center">
+  <img width="850" alt="Application Load Balancer Architecture" src="images/alb-architecture.png" />
+</p>
+
+<br>
+
+<p align="center">
+  <a href="./02-application-load-balancer.md"><strong>➡️ View Project</strong></a>
+</p>
+
+---
+
+### **[S3 Static Website + CloudFront + Route 53](./03-s3-cloudfront-route53.md)**
+
+Provisioned a static website using Amazon S3, CloudFront, Route 53, and ACM to deliver secure content over HTTPS.
+Implemented global content delivery, DNS routing, SSL/TLS encryption, caching, and automated website deployment using AWS services.
+Built through hands-on cloud hosting, CDN configuration, DNS management, and modern web infrastructure practices.
+
+<br>
+
+<p align="center">
+  <img width="850" alt="S3 CloudFront Architecture" src="images/s3-cloudfront-architecture.png" />
+</p>
+
+<br>
+
+<p align="center">
+  <a href="./03-s3-cloudfront-route53.md"><strong>➡️ View Project</strong></a>
+</p>
+
+---
+
+### **[Serverless REST API](./04-serverless-api-lambda-api-gateway.md)**
+
+Provisioned a serverless REST API using Amazon API Gateway, AWS Lambda, DynamoDB, IAM, and CloudWatch.
+Implemented event-driven application workflows, least-privilege IAM permissions, data persistence, monitoring, and API request handling.
+Built through hands-on serverless development, cloud automation, Infrastructure as Code concepts, and AWS deployment practices.
+
+<br>
+
+<p align="center">
+  <img width="850" alt="Serverless Architecture" src="images/serverless-api-architecture.png" />
+</p>
+
+<br>
+
+<p align="center">
+  <a href="./04-serverless-api-lambda-api-gateway.md"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
