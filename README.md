@@ -1,4 +1,6 @@
-<img width="1000" alt="AWS Banner" src="https://github.com/user-attachments/assets/0b90e1a3-8023-4ee4-95e4-bb7f6d7b143e" /> 
+<p align="center">
+  <img width="500" style="margin-left: 40px;" alt="AWS Banner" src="https://github.com/user-attachments/assets/0b90e1a3-8023-4ee4-95e4-bb7f6d7b143e" />
+</p>
 
 # AWS Labs
 
