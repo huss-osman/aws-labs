@@ -1,4 +1,6 @@
-<img width="1000" alt="CloudFormation Banner" src="https://github.com/user-attachments/assets/6867fc5b-2569-4623-aec3-10c2db5c05dd" /> 
+<p align="center">
+  <img width="500" style="margin-left: 40px;" alt="CloudFormation Banner" src="https://github.com/user-attachments/assets/6867fc5b-2569-4623-aec3-10c2db5c05dd" />
+</p>
 
 # CloudFormation
 
@@ -7,11 +9,11 @@
 ![IaC](https://img.shields.io/badge/IaC-Infrastructure%20as%20Code-green)
 ![Language](https://img.shields.io/badge/Language-YAML-red)
 
-CloudFormation is AWS's Infrastructure as Code (IaC) service that allows cloud infrastructure to be defined using code rather than manually created through the AWS Management Console.
+CloudFormation is AWS's Infrastructure as Code (IaC) service enabling infrastructure to be defined, deployed, and managed through code.
 
-Infrastructure is described using **YAML** or **JSON** templates, enabling environments to be deployed, updated, and removed consistently.
+Infrastructure is described using YAML or JSON templates. This enables environments to be provisioned, updated, and removed consistently while supporting automated cloud deployments. Templates can be version controlled, reused, and deployed without manual configuration.
 
-Using CloudFormation helps eliminate repetitive manual configuration (ClickOps) while making infrastructure repeatable, version-controlled, and easy to manage.
+The focus of this section is understanding how CloudFormation, Infrastructure as Code, automation, and provisioning work practically.
 
 ---
 
