@@ -9,11 +9,11 @@
 ![Monitoring](https://img.shields.io/badge/Monitoring-Metrics-green)
 ![Alerts](https://img.shields.io/badge/Alerts-Alarms-orange)
 
-Amazon CloudWatch is AWS's monitoring and observability service for collecting metrics, monitoring resources, and responding to operational events.
+Amazon CloudWatch is AWS's monitoring and observability service for collecting metrics, monitoring resources, and responding to events.
 
-CloudWatch enables infrastructure performance to be monitored through metrics, alarms, dashboards, and logs. This provides real-time visibility into AWS resources while supporting proactive monitoring, automated alerting, and operational reliability.
+CloudWatch enables infrastructure performance to be monitored through metrics, alarms, dashboards, and logs. This provides real-time visibility into AWS resources while supporting proactive monitoring, automated alerting, operational reliability, and insights capabilities.
 
-The focus of this section is understanding how monitoring, metrics, alarms, and observability work practically.
+The focus of this section is understanding how monitoring, metrics, alarms, and observability work practically in real-world cloud environments.
 
 ---
 
