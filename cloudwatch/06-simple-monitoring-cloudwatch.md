@@ -7,7 +7,7 @@
 ![Observability](https://img.shields.io/badge/Observability-Metrics-red)
 
 <p align="center">
-  <img width="1000" alt="Architecture Diagram" src="images/cloudwatch-monitoring-architecture.png" />
+  <img width="1000" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/d1ec4ba6-4aad-421d-90df-ab4dc6e7f080" /> 
 </p>
 
 This project demonstrates infrastructure monitoring using Amazon CloudWatch by provisioning an Amazon EC2 instance and configuring a CPU Utilisation alarm. It monitors EC2 performance through CloudWatch metrics, automatically detects high CPU usage, and changes alarm states based on resource activity.
