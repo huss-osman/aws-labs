@@ -148,7 +148,7 @@ Built through hands-on cloud monitoring, infrastructure observability, performan
 <br>
 
 <p align="center">
-  <a href="./monitoring/06-simple-monitoring-cloudwatch/"><strong>➡️ View Project</strong></a>
+  <a href="./cloudwatch/06-simple-monitoring-cloudwatch.md/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
