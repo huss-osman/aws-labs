@@ -7,7 +7,7 @@
 ![Cloud](https://img.shields.io/badge/Cloud-AWS-FF9900?logo=amazonaws&logoColor=white)
 ![IaC](https://img.shields.io/badge/IaC-CloudFormation-blue)
 ![Automation](https://img.shields.io/badge/Automation-Infrastructure%20as%20Code-green)
-![Projects](https://img.shields.io/badge/Projects-5-darkgreen)
+![Projects](https://img.shields.io/badge/Projects-6-darkgreen)
 ![Practice](https://img.shields.io/badge/Practice-Hands--on-orange)
 
 This repository documents my AWS labs covering cloud infrastructure, networking, security, scalability, and workflows.
@@ -129,6 +129,26 @@ Built through hands-on serverless development, cloud automation, Infrastructure 
 
 <p align="center">
   <a href="./serverless/05-serverless-api/"><strong>➡️ View Project</strong></a>
+</p>
+
+---
+
+### **[Simple Monitoring with CloudWatch](./monitoring/06-simple-monitoring-cloudwatch/)**
+
+Provisioned an Amazon EC2 instance and configured an Amazon CloudWatch CPU Utilisation alarm to monitor instance performance.
+Implemented CloudWatch metrics, alarm thresholds, performance monitoring, and real-time notifications using AWS monitoring services.
+Built through hands-on cloud monitoring, infrastructure observability, performance analysis, and AWS operational best practices.
+
+<br>
+
+<p align="center">
+  <img width="850" alt="CloudWatch Monitoring Architecture" src="images/cloudwatch-monitoring-architecture.png" />
+</p>
+
+<br>
+
+<p align="center">
+  <a href="./monitoring/06-simple-monitoring-cloudwatch/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
