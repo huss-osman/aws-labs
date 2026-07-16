@@ -149,7 +149,7 @@ https://github.com/user-attachments/assets/bf139c56-9bdd-49e2-b305-372a73ddcf4c
 The walkthrough demonstrates:
 
 - Reviewing the YAML template
-- Creating the CloudFormation stack
+- reviewing the stack
 - Provisioning AWS resources
 - Reviewing the EC2 instance
 - Understanding the deployment workflow
