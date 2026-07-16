@@ -47,36 +47,184 @@ The goal of this project was to:
 
 # Creating the EC2 Instance
 
-Launch a new Amazon EC2 instance using the default VPC with a public IPv4 address.
+Launch a new Amazon EC2 instance that will be monitored using Amazon CloudWatch.
 
 <p align="center">
-  <img width="1000" alt="EC2 Instance" src="https://github.com/user-attachments/assets/af9e401a-5d6f-4581-8963-dd6805661ca1" /> 
+  <img width="1000" alt="Launch Instance" src="https://github.com/user-attachments/assets/af9e401a-5d6f-4581-8963-dd6805661ca1" />
+</p>
+
+> [!NOTE]
+> The EC2 instance is named **CloudWatchTest**, making it easier to identify throughout the monitoring demonstration.
+
+<p align="center">
+  <img width="1000" alt="Amazon Linux" src="https://github.com/user-attachments/assets/e54d6498-43fc-4a81-9513-d66ca6e91d66" />
+</p>
+
+> [!NOTE]
+> **Amazon Linux 2023** was selected as the operating system, providing native integration with AWS services.
+
+<p align="center">
+  <img width="1000" alt="Instance Type" src="https://github.com/user-attachments/assets/34ae2416-df60-46b4-b6e3-69153e955876" />
+</p>
+
+> [!NOTE]
+> A **t3.micro** instance type was selected for this demonstration.
+
+<p align="center">
+  <img width="1000" alt="Network Settings" src="https://github.com/user-attachments/assets/73314f9f-1dad-4aec-96fb-362e8033835d" />
+</p>
+
+> [!NOTE]
+> The instance was deployed into the **default VPC** with a **public IPv4 address**. **EC2 Instance Connect** was used, so a key pair was not required.
+
+<p align="center">
+  <img width="1000" alt="Detailed Monitoring" src="https://github.com/user-attachments/assets/f93fa5a4-5c0a-46a3-aeb6-2a4c0254e736" />
+</p>
+
+> [!IMPORTANT]
+> **Detailed CloudWatch Monitoring** was enabled, allowing EC2 metrics to be published at **1-minute intervals** instead of the standard 5-minute intervals.
+>
+> AWS notes that enabling detailed monitoring may incur additional charges.
+>
+> Learn more: https://aws.amazon.com/cloudwatch/
+
+<p align="center">
+  <img width="1000" alt="Launch Instance" src="https://github.com/user-attachments/assets/b124db81-b561-4d7d-92fe-5fc06e5e10f5" />
+</p>
+
+> [!NOTE]
+> After reviewing the configuration, the EC2 instance was launched and AWS automatically began provisioning the required resources.
+
+<p align="center">
+  <img width="1000" alt="Running Instance" src="https://github.com/user-attachments/assets/154c575d-e8a1-47e5-9b6f-b8ea5ad86327" />
+</p>
+
+> [!NOTE]
+> ✅ The EC2 instance successfully entered the **Running** state and was ready to publish performance metrics to Amazon CloudWatch.
+
+## Deployment Summary
+
+- **Amazon Linux 2023** was selected as the operating system.
+- A **t3.micro** instance type was provisioned.
+- The instance was deployed into the **default VPC** with a **public IPv4 address**.
+- **EC2 Instance Connect** was used, so a key pair was not required.
+- **Detailed CloudWatch Monitoring** was enabled to publish metrics at **1-minute intervals**.
+- AWS notes that enabling detailed monitoring may incur **additional CloudWatch charges**.
+- The instance successfully entered the **Running** state and was ready for monitoring.
+  
+---
+
+# Creating the CloudWatch Alarm
+
+Navigate to **Amazon CloudWatch → Alarms** and create a new alarm.
+
+<p align="center">
+  <img width="1000" alt="Create Alarm" src="images/aws_cloudwatch_1.png" />
+</p>
+
+> [!NOTE]
+> A new CloudWatch alarm was created to monitor the EC2 instance CPU utilisation.
+
+---
+
+# Selecting the Metric
+
+Select the metric that the CloudWatch alarm will monitor.
+
+<p align="center">
+  <img width="1000" alt="Select Metric" src="images/aws_cloudwatch_2.png" />
 </p>
 
 <p align="center">
-  <img width="1000" alt="EC2 Instance" src="https://github.com/user-attachments/assets/e54d6498-43fc-4a81-9513-d66ca6e91d66" /> 
+  <img width="1000" alt="EC2 Metrics" src="images/aws_cloudwatch_3.png" />
 </p>
 
 <p align="center">
-  <img width="1000" alt="EC2 Instance" src="https://github.com/user-attachments/assets/34ae2416-df60-46b4-b6e3-69153e955876"" /> 
+  <img width="1000" alt="Per Instance Metrics" src="images/aws_cloudwatch_4.png" />
 </p>
 
-Configuration included:
+<p align="center">
+  <img width="1000" alt="CPUUtilization Metric" src="images/aws_cloudwatch_5.png" />
+</p>
 
-- Amazon Linux 2023
-- t3.micro
-- Default VPC
-- Public IPv4
+> [!NOTE]
+> The **CPUUtilization** metric for the EC2 instance was selected as the metric to monitor.
+
+---
+
+# Configuring the Alarm
+
+Configure the alarm threshold and evaluation condition.
+
+<p align="center">
+  <img width="1000" alt="Alarm Configuration" src="images/aws_cloudwatch_6.png" />
+</p>
+
+> [!NOTE]
+> Configuration included:
+>
+> - Metric: **CPUUtilization**
+> - Threshold Type: **Static**
+> - Condition: **Greater than or equal to**
+> - Threshold: **15%**
+
+---
+
+# Configuring Alarm Actions
+
+Configure how CloudWatch responds when the alarm changes state.
+
+<p align="center">
+  <img width="1000" alt="Alarm Actions" src="images/aws_cloudwatch_7.png" />
+</p>
+
+> [!IMPORTANT]
+> No Amazon SNS notification topic was configured for this demonstration. The objective was to understand CloudWatch monitoring and alarm state transitions rather than automated notifications.
+
+---
+
+# Naming the Alarm
+
+Provide a descriptive name for the CloudWatch alarm.
+
+<p align="center">
+  <img width="1000" alt="Alarm Name" src="images/aws_cloudwatch_8.png" />
+</p>
+
+> [!NOTE]
+> The alarm was named **cloudwatchtestHIGHCPU** for easy identification.
+
+---
+
+# Alarm Successfully Created
+
+Once created, CloudWatch immediately began evaluating the selected metric.
+
+<p align="center">
+  <img width="1000" alt="Alarm Created" src="images/aws_cloudwatch_9.png" />
+</p>
+
+The alarm initially displayed:
+
+```text
+INSUFFICIENT_DATA
+```
+
+> [!NOTE]
+> This is the expected initial state after creating a CloudWatch alarm. CloudWatch waits until enough metric data has been collected before evaluating whether the alarm should transition to **OK** or **ALARM**.
 
 ---
 
 # Connecting to the EC2 Instance
 
-Connect to the EC2 instance using SSH.
+Connect to the running EC2 instance using **EC2 Instance Connect**.
 
 <p align="center">
-  <img width="1000" alt="SSH Connection" src="images/ssh-connection.png" />
+  <img width="1000" alt="EC2 Instance Connect" src="images/aws_cloudwatch_10.png" />
 </p>
+
+> [!NOTE]
+> EC2 Instance Connect provided browser-based shell access without requiring an SSH key pair.
 
 ---
 
@@ -85,141 +233,46 @@ Connect to the EC2 instance using SSH.
 Install the **stress** package used to generate CPU utilisation.
 
 <p align="center">
-  <img width="1000" alt="Installing Stress" src="images/install-stress.png" />
+  <img width="1000" alt="Install Stress" src="images/aws_cloudwatch_11.png" />
 </p>
 
 ```bash
 sudo yum install stress -y
 ```
 
----
-
-# Creating the CloudWatch Alarm
-
-Create a new CloudWatch alarm based on the EC2 **CPUUtilization** metric.
-
-<p align="center">
-  <img width="1000" alt="Create Alarm" src="images/create-alarm.png" />
-</p>
+> [!NOTE]
+> The **stress** utility generates synthetic CPU workloads for testing monitoring and alarm behaviour.
 
 ---
 
-# Configuring the Alarm
+# Reviewing the Stress Utility
 
-Configure the alarm to trigger whenever CPU utilisation exceeds **15%**.
-
-<p align="center">
-  <img width="1000" alt="Alarm Configuration" src="images/alarm-configuration.png" />
-</p>
-
-Configuration included:
-
-- Metric: CPUUtilization
-- Statistic: Average
-- Threshold: Greater than 15%
-- Evaluation Period
-
----
-
-# Alarm Successfully Created
-
-After creation, the alarm entered the monitoring state.
+Verify the installation by displaying the available command options.
 
 <p align="center">
-  <img width="1000" alt="Alarm Created" src="images/alarm-created.png" />
+  <img width="1000" alt="Stress Help" src="images/aws_cloudwatch_12.png" />
 </p>
 
-The alarm initially displayed:
-
-```text
-OK
+```bash
+stress --help
 ```
-
-or
-
-```text
-INSUFFICIENT_DATA
-```
-
-while CloudWatch collected metrics.
 
 ---
 
 # Generating CPU Utilisation
 
-Generate CPU load using the **stress** utility.
+Run the stress utility to increase CPU utilisation.
 
 <p align="center">
-  <img width="1000" alt="Running Stress" src="images/stress-command.png" />
+  <img width="1000" alt="Run Stress" src="images/aws_cloudwatch_13.png" />
 </p>
 
 ```bash
-stress -c 2
+stress -c 2 -t 3600
 ```
 
----
-
-# Alarm Triggered
-
-As CPU utilisation exceeded the configured threshold, CloudWatch automatically changed the alarm state.
-
-<p align="center">
-  <img width="1000" alt="Alarm State" src="images/alarm-triggered.png" />
-</p>
-
-The alarm transitioned to:
-
-```text
-ALARM
-```
-
----
-
-# Monitoring CPU Metrics
-
-CloudWatch visualised the increased CPU utilisation using real-time metrics.
-
-<p align="center">
-  <img width="1000" alt="CPU Metrics" src="images/cpu-metrics.png" />
-</p>
-
-The CPU utilisation graph showed usage increasing above the configured alarm threshold.
-
----
-
-# Alarm Returns to OK
-
-Stop the workload by pressing:
-
-```text
-Ctrl + C
-```
-
-Once CPU utilisation decreased, CloudWatch automatically returned the alarm to the **OK** state.
-
-<p align="center">
-  <img width="1000" alt="Alarm OK" src="images/alarm-ok.png" />
-</p>
-
----
-
-# Deleting the Alarm
-
-After testing completed, delete the CloudWatch alarm.
-
-<p align="center">
-  <img width="1000" alt="Delete Alarm" src="images/delete-alarm.png" />
-</p>
-
----
-
-# Terminating the EC2 Instance
-
-Terminate the EC2 instance used during the demonstration.
-
-<p align="center">
-  <img width="1000" alt="Terminate EC2" src="images/terminate-instance.png" />
-</p>
+> [!NOTE]
+> Two CPU workers were started to generate sustained CPU utilisation for one hour, allowing CloudWatch to detect the increased load.
 
 ---
 
