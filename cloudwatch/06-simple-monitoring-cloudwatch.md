@@ -233,13 +233,11 @@ The complete monitoring workflow is shown below.
 
 The walkthrough demonstrates:
 
-- Launching the EC2 instance
-- Connecting using SSH
-- Installing the stress package
-- Creating a CloudWatch alarm
-- Generating CPU utilisation
-- Triggering the alarm
-- Returning the alarm to OK
+- Reviewing the EC2 instance
+- Reviewing the CloudWatch alarm
+- Reviewing CPU utilisation metrics
+- Reviewing alarm state changes
+- Understanding the monitoring workflow
 
 ---
 
