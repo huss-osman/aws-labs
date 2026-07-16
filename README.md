@@ -142,7 +142,7 @@ Built through hands-on cloud monitoring, infrastructure observability, performan
 <br>
 
 <p align="center">
-  <img width="850" alt="CloudWatch Monitoring Architecture" src="images/cloudwatch-monitoring-architecture.png" />
+  <img width="850" alt="Architecture Diagram" src="https://github.com/user-attachments/assets/d1ec4ba6-4aad-421d-90df-ab4dc6e7f080" /> 
 </p>
 
 <br>
