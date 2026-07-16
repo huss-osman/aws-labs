@@ -9,11 +9,11 @@
 ![CDN](https://img.shields.io/badge/CDN-CloudFront-blue)
 ![DNS](https://img.shields.io/badge/DNS-Route%2053-purple)
 
-Amazon Simple Storage Service (S3) is AWS's object storage service for securely storing, managing, and hosting static website content.
+Amazon Simple Storage Service (S3) is AWS's object storage service for securely storing, managing, and hosting static content and objects.
 
-Combined with CloudFront and Route 53, content can be delivered globally through edge locations using HTTPS, caching, and DNS routing for improved performance, availability, scalability, reliability, and low-latency content delivery across distributed cloud environments.
+Combined with CloudFront and Route 53, content can be delivered globally through edge locations using HTTPS, caching, and DNS routing for improved performance, availability, scalability, reliability, and low-latency content delivery across distributed cloud environments efficiently.
 
-The focus of this section is understanding how object storage, content delivery, DNS, and cloud hosting work practically.
+The focus of this section is understanding how object storage, content delivery, DNS, and cloud hosting work practically in AWS environments.
 
 ---
 
