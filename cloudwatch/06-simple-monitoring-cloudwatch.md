@@ -119,7 +119,7 @@ Launch a new Amazon EC2 instance that will be monitored using Amazon CloudWatch.
 Navigate to **Amazon CloudWatch → Alarms** and create a new alarm.
 
 <p align="center">
-  <img width="1000" alt="Create Alarm" src="images/aws_cloudwatch_1.png" />
+  <img width="1000" alt="Create Alarm" src="https://github.com/user-attachments/assets/e90b04c3-57b5-42c0-80ef-9004ae61d139" /> 
 </p>
 
 > [!NOTE]
@@ -132,19 +132,15 @@ Navigate to **Amazon CloudWatch → Alarms** and create a new alarm.
 Select the metric that the CloudWatch alarm will monitor.
 
 <p align="center">
-  <img width="1000" alt="Select Metric" src="images/aws_cloudwatch_2.png" />
+  <img width="1000" alt="EC2 Metrics" src="https://github.com/user-attachments/assets/a3e5fc77-42fa-471d-86f7-e08af3935c56" /> 
 </p>
 
 <p align="center">
-  <img width="1000" alt="EC2 Metrics" src="images/aws_cloudwatch_3.png" />
+  <img width="1000" alt="Per Instance Metrics" src="https://github.com/user-attachments/assets/acc17310-286d-4e03-b932-18db91241e57" />
 </p>
 
 <p align="center">
-  <img width="1000" alt="Per Instance Metrics" src="images/aws_cloudwatch_4.png" />
-</p>
-
-<p align="center">
-  <img width="1000" alt="CPUUtilization Metric" src="images/aws_cloudwatch_5.png" />
+  <img width="1000" alt="CPUUtilization Metric" src="https://github.com/user-attachments/assets/14294230-332b-4660-a8d0-811d73b7e780" /> 
 </p>
 
 > [!NOTE]
@@ -157,7 +153,7 @@ Select the metric that the CloudWatch alarm will monitor.
 Configure the alarm threshold and evaluation condition.
 
 <p align="center">
-  <img width="1000" alt="Alarm Configuration" src="images/aws_cloudwatch_6.png" />
+  <img width="1000" alt="Alarm Configuration" src="https://github.com/user-attachments/assets/b262c0d6-55a9-4fb4-9ae8-f670b99356f4" />
 </p>
 
 > [!NOTE]
@@ -175,7 +171,7 @@ Configure the alarm threshold and evaluation condition.
 Configure how CloudWatch responds when the alarm changes state.
 
 <p align="center">
-  <img width="1000" alt="Alarm Actions" src="images/aws_cloudwatch_7.png" />
+  <img width="1000" alt="Alarm Actions" src="https://github.com/user-attachments/assets/0722096d-48ea-499b-bb47-75c804e899b1" /> 
 </p>
 
 > [!IMPORTANT]
@@ -188,7 +184,7 @@ Configure how CloudWatch responds when the alarm changes state.
 Provide a descriptive name for the CloudWatch alarm.
 
 <p align="center">
-  <img width="1000" alt="Alarm Name" src="images/aws_cloudwatch_8.png" />
+  <img width="1000" alt="Alarm Name" src="https://github.com/user-attachments/assets/5fcf39a2-8f67-49d0-a064-e1578ad13ad0" /> 
 </p>
 
 > [!NOTE]
@@ -201,7 +197,7 @@ Provide a descriptive name for the CloudWatch alarm.
 Once created, CloudWatch immediately began evaluating the selected metric.
 
 <p align="center">
-  <img width="1000" alt="Alarm Created" src="images/aws_cloudwatch_9.png" />
+  <img width="1000" alt="Alarm Created" src="https://github.com/user-attachments/assets/7542a49d-366f-4ac0-95c3-2e283d943de8" /> 
 </p>
 
 The alarm initially displayed:
@@ -220,7 +216,7 @@ INSUFFICIENT_DATA
 Connect to the running EC2 instance using **EC2 Instance Connect**.
 
 <p align="center">
-  <img width="1000" alt="EC2 Instance Connect" src="images/aws_cloudwatch_10.png" />
+  <img width="1000" alt="EC2 Instance Connect" src="https://github.com/user-attachments/assets/2fc23244-21ef-4a14-a08b-b898f17b473f" /> 
 </p>
 
 > [!NOTE]
@@ -233,7 +229,7 @@ Connect to the running EC2 instance using **EC2 Instance Connect**.
 Install the **stress** package used to generate CPU utilisation.
 
 <p align="center">
-  <img width="1000" alt="Install Stress" src="images/aws_cloudwatch_11.png" />
+  <img width="1000" alt="Install Stress" src="https://github.com/user-attachments/assets/054468b6-7237-47e0-bfa8-04661173c4a8" /> 
 </p>
 
 ```bash
@@ -250,7 +246,7 @@ sudo yum install stress -y
 Verify the installation by displaying the available command options.
 
 <p align="center">
-  <img width="1000" alt="Stress Help" src="images/aws_cloudwatch_12.png" />
+  <img width="1000" alt="Stress Help" src="https://github.com/user-attachments/assets/ba142e44-bceb-4d70-9129-0990d24d9545" /> 
 </p>
 
 ```bash
@@ -264,7 +260,7 @@ stress --help
 Run the stress utility to increase CPU utilisation.
 
 <p align="center">
-  <img width="1000" alt="Run Stress" src="images/aws_cloudwatch_13.png" />
+  <img width="1000" alt="Run Stress" src="https://github.com/user-attachments/assets/629f7ca5-c34a-41e9-a41b-2b87339d01c3" /> 
 </p>
 
 ```bash
@@ -276,43 +272,111 @@ stress -c 2 -t 3600
 
 ---
 
-# EC2 Instance Terminated
+# Monitoring the Alarm State
 
-The EC2 instance entered the **Shutting-down** state before becoming permanently **Terminated**.
+CloudWatch continued collecting CPU metrics while the alarm remained in the **OK** state.
 
 <p align="center">
-  <img width="1000" alt="Instance Terminated" src="images/instance-terminated.png" />
+  <img width="1000" alt="Alarm OK" src="https://github.com/user-attachments/assets/6db5b253-5c6e-4416-a157-b77d416ffe05" /> 
 </p>
 
----
-
-# Demonstration
-
-The complete monitoring workflow is shown below.
-
-<!-- Demo video -->
-
-The walkthrough demonstrates:
-
-- Reviewing the EC2 instance
-- Reviewing the CloudWatch alarm
-- Reviewing CPU utilisation metrics
-- Reviewing alarm state changes
-- Understanding the monitoring workflow
+> [!NOTE]
+> Initially, CPU utilisation remained below the configured **15%** threshold, so the alarm stayed in the **OK** state while CloudWatch continued evaluating incoming metrics.
 
 ---
 
-# Cleanup
+# Alarm Triggered
 
-The cleanup process is shown below.
+As the stress workload increased CPU utilisation, CloudWatch detected that the configured threshold had been exceeded.
 
-<!-- Cleanup video -->
+<p align="center">
+  <img width="1000" alt="Alarm Triggered" src="https://github.com/user-attachments/assets/976c866c-0916-4886-b3ce-14ad14c4a7b0" /> 
+</p>
 
-The walkthrough demonstrates:
+> [!IMPORTANT]
+> Once CPU utilisation exceeded **15%**, CloudWatch automatically transitioned the alarm from **OK** to **ALARM**. The CPU graph also showed the utilisation spike crossing the configured threshold.
 
-- Deleting the CloudWatch alarm
-- Terminating the EC2 instance
-- Removing all deployed resources
+---
+
+# Stopping the Workload
+
+After verifying the alarm had triggered, the stress process was stopped.
+
+<p align="center">
+  <img width="1000" alt="Stopping Stress" src="https://github.com/user-attachments/assets/a830d71b-e0c3-430b-9edb-4e29b67d323a" /> 
+</p>
+
+```bash
+Ctrl + Z
+```
+
+> [!NOTE]
+> Stopping the stress process allowed CPU utilisation to gradually decrease back to normal operating levels.
+
+---
+
+# Alarm Returned to OK
+
+As CPU utilisation dropped below the configured threshold, CloudWatch automatically updated the alarm state.
+
+<p align="center">
+  <img width="1000" alt="Alarm Returned OK" src="https://github.com/user-attachments/assets/5044d857-9dcd-4c7f-9d6c-3228cb322d64" />
+</p>
+
+> [!NOTE]
+> Once sufficient metric data confirmed CPU utilisation had returned below **15%**, the alarm automatically transitioned back to the **OK** state.
+
+---
+
+# Deleting the Alarm
+
+After completing the monitoring demonstration, the CloudWatch alarm was removed.
+
+<p align="center">
+  <img width="1000" alt="Delete Alarm" src="https://github.com/user-attachments/assets/1c07bdc7-f45f-498b-986f-a347a1adfb33" /> 
+</p>
+
+> [!NOTE]
+> Deleting the alarm stops CloudWatch from continuing to evaluate the selected metric, although the EC2 instance continues publishing metrics while it remains running.
+
+---
+
+# Terminating the EC2 Instance
+
+With testing complete, the EC2 instance was terminated.
+
+<p align="center">
+  <img width="1000" alt="Terminate EC2" src="https://github.com/user-attachments/assets/44893b43-f65b-4620-a468-4750394b03b5" /> 
+</p>
+
+> [!NOTE]
+> The EC2 instance was terminated to prevent unnecessary AWS charges after the demonstration had finished.
+
+---
+
+# EC2 Instance Terminated
+
+AWS completed the instance termination process.
+
+<p align="center">
+  <img width="1000" alt="Instance Terminated" src="https://github.com/user-attachments/assets/a47f6883-31d0-4fc0-9f28-7f8aa9d460ce" />
+</p>
+
+> [!NOTE]
+> The instance successfully entered the **Terminated** state and was no longer consuming compute resources.
+
+---
+
+# Removing the Security Group
+
+The custom Security Group created for the demonstration was also removed.
+
+<p align="center">
+  <img width="1000" alt="Delete Security Group" src="https://github.com/user-attachments/assets/23c227c7-a430-4ac9-9777-221c0c34f364" />
+</p>
+
+> [!NOTE]
+> After the EC2 instance was terminated, the custom **cloudwatchSG** Security Group was deleted to complete the infrastructure cleanup and avoid leaving unused AWS resources.
 
 ---
 
