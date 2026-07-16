@@ -50,13 +50,21 @@ The goal of this project was to:
 Launch a new Amazon EC2 instance using the default VPC with a public IPv4 address.
 
 <p align="center">
-  <img width="1000" alt="EC2 Instance" src="images/ec2-instance.png" />
+  <img width="1000" alt="EC2 Instance" src="https://github.com/user-attachments/assets/af9e401a-5d6f-4581-8963-dd6805661ca1" /> 
+</p>
+
+<p align="center">
+  <img width="1000" alt="EC2 Instance" src="https://github.com/user-attachments/assets/e54d6498-43fc-4a81-9513-d66ca6e91d66" /> 
+</p>
+
+<p align="center">
+  <img width="1000" alt="EC2 Instance" src="https://github.com/user-attachments/assets/34ae2416-df60-46b4-b6e3-69153e955876"" /> 
 </p>
 
 Configuration included:
 
 - Amazon Linux 2023
-- t2.micro
+- t3.micro
 - Default VPC
 - Public IPv4
 
