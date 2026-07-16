@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="500" style="margin-left: 40px;" alt="CloudWatch Banner" src="https://github.com/user-attachments/assets/YOUR_CLOUDWATCH_BANNER" />
+  <img width="500" style="margin-left: 40px;" alt="CloudWatch Banner" src="https://github.com/user-attachments/assets/3dc1ab70-7161-43f6-bd45-90bff48d4189" /> 
 </p>
 
 # Amazon CloudWatch
