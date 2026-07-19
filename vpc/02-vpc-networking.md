@@ -339,20 +339,20 @@ The cleanup process included terminating both EC2 instances, deleting the NAT Ga
 
 ```bash
 git clone https://github.com/huss-osman/devops-learning.git
-cd devops-learning/06-aws/assignments/01-vpc-and-networking
+cd devops-learning/aws-labs/vpc
 ```
 
-#### 2. Follow the Walkthrough
+#### 2. Open the Lab
 
-Complete the project by following the deployment steps in this repository.
+Open `02-vpc-networking.md` and follow the deployment walkthrough.
 
-#### 3. Deploy the Infrastructure
+#### 3. Complete the Lab
 
 Provision the AWS networking resources using the AWS Management Console.
 
 #### 4. Clean Up
 
-Delete the deployed AWS resources when you have finished to avoid unnecessary charges.
+Delete the deployed AWS resources after completing the lab to avoid unnecessary charges.
 
 ---
 
