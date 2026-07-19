@@ -68,7 +68,7 @@ Built through hands-on cloud networking, infrastructure design, routing configur
 <br>
 
 <p align="center">
-  <a href="./vpc/02-vpc-networking/"><strong>➡️ View Project</strong></a>
+  <a href="./vpc/02-vpc-networking.md/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
