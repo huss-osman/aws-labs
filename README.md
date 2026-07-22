@@ -53,7 +53,7 @@ Built through hands-on cloud automation, Infrastructure as Code workflows, YAML 
 
 ---
 
-### **[VPC & Networking](./vpc/01-vpc-and-networking.md)**
+### **[VPC & Networking](./vpc/02-vpc-networking.md)**
 
 Designed and deployed a AWS VPC with public and private subnets, Internet and NAT Gateways, route tables, Security Groups, a Bastion Host, and EC2 instances.
 Configured secure network segmentation, internet access, SSH connectivity through a Bastion Host, and monitored infrastructure using CloudWatch.
@@ -73,7 +73,7 @@ Built through hands-on cloud networking, infrastructure design, routing configur
 
 ---
 
-### **[Application Load Balancer](./02-application-load-balancer.md)**
+### **[Application Load Balancer](./load-balancer/03-application-load-balancer.md)**
 
 Provisioned an Application Load Balancer with multiple Amazon EC2 instances distributed across Availability Zones using AWS networking services.
 Implemented load balancing, target groups, health checks, Security Groups, and scalable traffic distribution across web servers.
@@ -88,7 +88,7 @@ Built through hands-on cloud networking, high-availability architecture, infrast
 <br>
 
 <p align="center">
-  <a href="./load-balancer/03-application-load-balancer/"><strong>➡️ View Project</strong></a>
+  <a href="./load-balancer/03-application-load-balancer.md/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
