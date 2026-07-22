@@ -32,7 +32,7 @@ By working through these demonstrations, I aim to:
 
 ## Project
 
-### **[VPC & Networking](./02-vpc-networking/)**
+### **[VPC & Networking](./02-vpc-networking.md)**
 
 Designed and deployed a AWS VPC with public and private subnets, Internet and NAT Gateways, route tables, Security Groups, a Bastion Host, and EC2 instances.
 Configured secure network segmentation, internet access, SSH connectivity through a Bastion Host, and monitored infrastructure using CloudWatch.
