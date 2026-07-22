@@ -32,7 +32,7 @@ By working through these demonstrations, I aim to:
 
 ## Project
 
-### **[Application Load Balancer](./03-application-load-balancer)**
+### **[Application Load Balancer](./03-application-load-balancer.md)**
 
 Provisioned an Application Load Balancer with multiple Amazon EC2 instances distributed across Availability Zones using AWS networking services.
 Implemented load balancing, target groups, health checks, Security Groups, and scalable traffic distribution across web servers.
@@ -47,7 +47,7 @@ Built through hands-on cloud networking, high-availability architecture, infrast
 <br>
 
 <p align="center">
-  <a href="./03-application-load-balancer/"><strong>➡️ View Project</strong></a>
+  <a href="./03-application-load-balancer.md/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
