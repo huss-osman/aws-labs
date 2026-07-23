@@ -22,11 +22,11 @@ The focus of this section is understanding how object storage, content delivery,
 By working through these demonstrations, I aim to:
 
 - Understand Amazon S3
-- Configure static website hosting
-- Deploy CloudFront distributions
-- Configure Route 53 DNS records
-- Secure websites using HTTPS
-- Build globally distributed web applications
+- Configure Static Website Hosting
+- Deploy Amazon CloudFront distributions
+- Deliver content through a Content Delivery Network (CDN)
+- Understand CloudFront edge caching and cache invalidation
+- Build globally distributed static websites on AWS
 
 ---
 
