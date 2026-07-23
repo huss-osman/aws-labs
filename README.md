@@ -93,7 +93,7 @@ Built through hands-on cloud networking, high-availability architecture, infrast
 
 ---
 
-### **[S3 Static Website + CloudFront + Route 53](./03-s3-cloudfront-route53.md)**
+### **[S3 Static Website + CloudFront CDN](./s3/04-s3-static-website-cloudfront.md)**
 
 Provisioned a static website using Amazon S3, CloudFront, Route 53, and ACM to deliver secure content over HTTPS.
 Implemented global content delivery, DNS routing, SSL/TLS encryption, caching, and automated website deployment using AWS services.
@@ -108,7 +108,7 @@ Built through hands-on cloud hosting, CDN configuration, DNS management, and mod
 <br>
 
 <p align="center">
-  <a href="./s3/04-s3-cloudfront-route53/"><strong>➡️ View Project</strong></a>
+  <a href="./s3/03-s3-static-website-cloudfront.md"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
