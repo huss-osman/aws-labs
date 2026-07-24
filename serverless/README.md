@@ -13,7 +13,7 @@ Serverless enables applications to be built, deployed, and managed using managed
 
 AWS Lambda, API Gateway, DynamoDB, IAM, and CloudWatch work together to create scalable event-driven applications with secure API communication, monitoring, automated infrastructure management, reliable cloud integrations, and resilient application architectures.
 
-The focus of this section is understanding how serverless architectures, APIs, automation, and event-driven applications work practically.
+The focus of this section is understanding serverless architectures, APIs, automation, and event-driven applications in AWS.
 
 ---
 
@@ -32,11 +32,11 @@ By working through these demonstrations, I aim to:
 
 ## Project
 
-### **[Serverless REST API](./05-serverless-api/)**
+### **[Serverless API with Lambda, IAM & API Gateway](./serverless/04-lambda-api-gateway-dynamodb.md)**
 
-Provisioned a serverless REST API using Amazon API Gateway, AWS Lambda, DynamoDB, IAM, and CloudWatch.
-Implemented event-driven application workflows, least-privilege IAM permissions, data persistence, monitoring, and secure API request handling.
-Built through hands-on serverless development, cloud automation, Infrastructure as Code concepts, and AWS deployment practices.
+Built a serverless API using Amazon API Gateway, AWS Lambda, DynamoDB, IAM, and CloudWatch.
+Implemented event-driven request processing, least-privilege IAM permissions, data persistence, monitoring, and secure API communication.
+Developed through hands-on serverless architecture, cloud-native development, AWS managed services, and production-style deployment practices.
 
 <br>
 
