@@ -41,7 +41,7 @@ Built through hands-on serverless development, cloud automation, Infrastructure 
 <br>
 
 <p align="center">
-  <img width="850" alt="Serverless Architecture" src="images/serverless-api-architecture.png" />
+  <img width="850" alt="Serverless API Architecture" src="https://github.com/user-attachments/assets/7ecc4e52-dd91-4941-87f6-62083c3f08ce" /> 
 </p>
 
 <br>
