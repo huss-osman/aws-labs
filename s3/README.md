@@ -11,7 +11,7 @@
 
 Amazon Simple Storage Service (S3) is AWS's object storage service for securely storing, managing, and hosting static website content.
 
-Combined with Amazon CloudFront, content can be delivered globally through edge locations using HTTPS, caching, and low-latency content delivery to improve performance, availability, scalability, security, reliability, user experience, and global accessibility.
+Combined with Amazon CloudFront, content can be delivered globally through edge locations using HTTPS, caching, and low-latency content delivery to improve performance, availability, scalability, security, reliability, user experience, global accessibility, and efficient delivery.
 
 The focus of this section is understanding object storage, static website hosting, content delivery, and cloud hosting in AWS environments.
 
