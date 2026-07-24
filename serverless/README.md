@@ -47,7 +47,7 @@ Developed through hands-on serverless architecture, cloud-native development, AW
 <br>
 
 <p align="center">
-  <a href="./05-serverless-api/"><strong>➡️ View Project</strong></a>
+  <a href="./04-lambda-api-gateway-dynamodb.md/"><strong>➡️ View Project</strong></a>
 </p>
 
 ---
