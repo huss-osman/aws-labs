@@ -135,7 +135,7 @@ Developed through hands-on serverless architecture, cloud-native development, AW
 
 ---
 
-### **[Simple Monitoring with CloudWatch](./monitoring/06-simple-monitoring-cloudwatch/)**
+### **[Simple Monitoring with CloudWatch](./monitoring/06-simple-monitoring-cloudwatch.md)**
 
 Provisioned an Amazon EC2 instance and configured an Amazon CloudWatch CPU Utilisation alarm to monitor instance performance.
 Implemented CloudWatch metrics, alarm thresholds, performance monitoring, and real-time notifications using AWS monitoring services.
