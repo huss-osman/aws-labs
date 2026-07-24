@@ -32,7 +32,7 @@ By working through these demonstrations, I aim to:
 
 ## Project
 
-### **[Serverless API with Lambda, IAM & API Gateway](./serverless/04-lambda-api-gateway-dynamodb.md)**
+### **[Serverless API with Lambda, IAM & API Gateway](./04-lambda-api-gateway-dynamodb.md)**
 
 Built a serverless API using Amazon API Gateway, AWS Lambda, DynamoDB, IAM, and CloudWatch.
 Implemented event-driven request processing, least-privilege IAM permissions, data persistence, monitoring, and secure API communication.
