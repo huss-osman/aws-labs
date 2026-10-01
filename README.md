@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="450" style="margin-left: 40px;" alt="AWS Banner" src="https://github.com/user-attachments/assets/0b90e1a3-8023-4ee4-95e4-bb7f6d7b143e" />
+ <img width="1685" height="934" alt="image" src="https://github.com/user-attachments/assets/d8e7c94e-25f8-4392-9028-5b6b9d609430" />
 </p>
 
 # AWS Labs
